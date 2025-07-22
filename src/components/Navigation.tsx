@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,8 +13,14 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <Link href="/" className="text-2xl font-playfair font-bold text-primary">
-              One Bowl
+            <Link href="/" className="flex items-center">
+              <Image 
+                src="/logo.png" 
+                alt="One Bowl Asian Cuisine" 
+                width={100} 
+                height={100} 
+                className="h-50 w-auto"
+              />
             </Link>
           </div>
 
