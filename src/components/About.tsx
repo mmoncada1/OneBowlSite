@@ -17,8 +17,8 @@ export default function About() {
           {/* Image */}
           <div className="relative">
             <Image
-              src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
-              alt="Chef preparing Asian cuisine"
+              src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1050&q=80"
+              alt="Traditional Asian restaurant interior with warm lighting"
               width={600}
               height={400}
               className="rounded-lg shadow-lg"
