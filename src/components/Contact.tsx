@@ -98,17 +98,19 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* Map Placeholder */}
+          {/* Interactive Map */}
           <div className="bg-gray-800 rounded-lg overflow-hidden">
-            <div className="aspect-video bg-gray-700 flex items-center justify-center">
-              <div className="text-center">
-                <svg className="w-16 h-16 mx-auto mb-4 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-                <p className="text-gray-400">Interactive Map</p>
-                <p className="text-sm text-gray-500">Click to view in Google Maps</p>
-              </div>
+            <div className="aspect-video">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11798.536271468657!2d-83.7162337!3d42.2721683!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae3cedc15555%3A0x883cae3cedc15555!2s1220%20S%20University%20Ave%20%23110%2C%20Ann%20Arbor%2C%20MI%2048104!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="One Bowl Asian Cuisine Location"
+              />
             </div>
             <div className="p-6">
               <a 
