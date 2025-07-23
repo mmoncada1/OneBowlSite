@@ -102,7 +102,7 @@ export default function Contact() {
           <div className="bg-gray-800 rounded-lg overflow-hidden">
             <div className="aspect-video">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11798.536271468657!2d-83.7162337!3d42.2721683!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae3cedc15555%3A0x883cae3cedc15555!2s1220%20S%20University%20Ave%20%23110%2C%20Ann%20Arbor%2C%20MI%2048104!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2952.8567891234567!2d-83.7354827!3d42.2747318!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae445423f8ab%3A0x132cd532d6a42b9!2sOne%20Bowl%20Asian%20Cuisine!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -114,7 +114,7 @@ export default function Contact() {
             </div>
             <div className="p-6">
               <a 
-                href="https://maps.google.com/?q=1220+S+University+Ave+%23110,+Ann+Arbor,+MI+48104"
+                href="https://www.google.com/maps/place/One+Bowl+Asian+Cuisine/@42.2744913,-83.7339935,18.75z/data=!3m1!5s0x883cae4456997e21:0x7898e1b0bc1edd4d!4m14!1m7!3m6!1s0x883cae44569de0bd:0x94a619a2857c6693!2sAnn+Arbor+Plaza,+1220+S+University+Ave+%23110,+Ann+Arbor,+MI+48104!3b1!8m2!3d42.2747702!4d-83.7334237!3m5!1s0x883cae445423f8ab:0x132cd532d6a42b9!8m2!3d42.2747318!4d-83.7332667!16s%2Fg%2F11c1tt44qc?entry=ttu&g_ep=EgoyMDI1MDcyMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full bg-primary hover:bg-red-600 text-white text-center py-3 rounded-lg font-semibold transition-colors"
@@ -146,8 +146,8 @@ export default function Contact() {
             >
               Call: (734) 747-7006
             </a>
-            <a
-              href="https://maps.google.com/?q=1220+S+University+Ave+%23110,+Ann+Arbor,+MI+48104"
+                        <a
+              href="https://www.google.com/maps/place/One+Bowl+Asian+Cuisine/@42.2744913,-83.7339935,18.75z/data=!3m1!5s0x883cae4456997e21:0x7898e1b0bc1edd4d!4m14!1m7!3m6!1s0x883cae44569de0bd:0x94a619a2857c6693!2sAnn+Arbor+Plaza,+1220+S+University+Ave+%23110,+Ann+Arbor,+MI+48104!3b1!8m2!3d42.2747702!4d-83.7334237!3m5!1s0x883cae445423f8ab:0x132cd532d6a42b9!8m2!3d42.2747318!4d-83.7332667!16s%2Fg%2F11c1tt44qc?entry=ttu&g_ep=EgoyMDI1MDcyMi4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gray-700 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
