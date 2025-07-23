@@ -13,7 +13,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Image */}
           <div className="relative">
             <Image
@@ -43,7 +43,7 @@ export default function About() {
             </p>
 
             {/* Features */}
-            <div className="grid grid-cols-2 gap-6 mt-8">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8">
               <div className="text-center p-4">
                 <div className="text-3xl mb-2">🍜</div>
                 <h4 className="font-semibold text-gray-900">Fresh Daily</h4>

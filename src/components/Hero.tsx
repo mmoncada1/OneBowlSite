@@ -4,6 +4,16 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Hero() {
+  const scrollToAbout = () => {
+    const aboutSection = document.getElementById('about')
+    if (aboutSection) {
+      aboutSection.scrollIntoView({ 
+        behavior: 'smooth',
+        block: 'start'
+      })
+    }
+  }
+
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-gray-800 pt-16">
       {/* Background Image */}
@@ -56,11 +66,15 @@ export default function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-        <Link href="#about" className="text-white hover:text-primary transition-colors">
+        <button 
+          onClick={scrollToAbout}
+          className="text-white hover:text-primary transition-colors focus:outline-none"
+          aria-label="Scroll to about section"
+        >
           <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
-        </Link>
+        </button>
       </div>
     </section>
   )
