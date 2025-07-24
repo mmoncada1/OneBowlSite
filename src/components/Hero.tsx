@@ -59,8 +59,8 @@ export default function Hero() {
 
         {/* Location Info */}
         <div className="mt-12 text-gray-300">
-          <p className="text-sm">📍 Ann Arbor Plaza, 1220 S University Ave #110, Ann Arbor, MI 48104</p>
-          <p className="text-sm mt-1">🕐 Hours: 11:00 AM - 8:40 PM</p>
+          <p className="text-sm">Ann Arbor Plaza, 1220 S University Ave #110, Ann Arbor, MI 48104</p>
+          <p className="text-sm mt-1">Hours: 11:00 AM - 8:40 PM</p>
         </div>
       </div>
 
