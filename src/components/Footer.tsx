@@ -86,6 +86,13 @@ export default function Footer() {
             </Link>
           </div>
         </div>
+        
+        {/* Powered By */}
+        <div className="text-center mt-8 pt-4 border-t border-gray-800">
+          <p className="text-gray-500 text-xs">
+            Powered by Sites By Miguel
+          </p>
+        </div>
       </div>
     </footer>
   )
