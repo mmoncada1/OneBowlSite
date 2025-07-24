@@ -15,14 +15,20 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   title: 'One Bowl | Authentic Asian Cuisine in Ann Arbor',
   description: 'Experience the finest Asian cuisine at One Bowl restaurant in Ann Arbor. Fresh ingredients, authentic flavors, and exceptional service.',
-  keywords: ['Asian restaurant', 'Ann Arbor', 'Chinese food', 'sushi', 'Asian cuisine', 'One Bowl'],
+  keywords: ['Asian restaurant', 'Ann Arbor', 'Chinese food', 'sushi', 'Asian cuisine', 'One Bowl', 'pho', 'ramen', 'Korean food', 'Vietnamese food'],
   icons: {
     icon: [
-      { url: '/favicon.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/favicon.svg', type: 'image/svg+xml' },
     ],
-    shortcut: '/favicon.png',
-    apple: { url: '/favicon.png', sizes: '180x180', type: 'image/png' },
+    shortcut: '/favicon.ico',
+    apple: [
+      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
+    ],
+  },
+  manifest: '/site.webmanifest',
+  appleWebApp: {
+    title: 'One Bowl',
   },
 }
 
