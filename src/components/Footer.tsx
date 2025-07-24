@@ -90,7 +90,7 @@ export default function Footer() {
         {/* Powered By */}
         <div className="text-center mt-8 pt-4 border-t border-gray-800">
           <p className="text-gray-500 text-xs">
-            Powered by Sites By Miguel
+            Powered by <a href="https://sitesbymiguel.com" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">Sites By Miguel</a>
           </p>
         </div>
       </div>
